@@ -217,7 +217,8 @@ coscmd upload "$PKG_LOCAL_PATH" "$COS_CODE_PATH"
 
 # 当前需要额外上传一份 spec.yaml（注意控制台上传程序包不需要该文件），后续我们会对此进行优化
 echo "
-apiVersion: v1kind: Application
+apiVersion: v1
+kind: Application
 spec:
   services:
   - name: test # 服务名
